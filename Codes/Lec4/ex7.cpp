@@ -5,12 +5,13 @@
     ABC
 2. 
     A
+    BC
+    DEF
+    GHIJ // counting concept
+3.
+    A
     BB
     CCC
-3.
-    321
-    321
-    321
 */
 #include<iostream>
 using namespace std;
@@ -40,7 +41,21 @@ int main(){
         {
             
            cout<<cha;
-           cha++;
+           cha = cha + 1;
+        }
+
+        cout << "\n";
+    }
+    cout << "**************"<<endl;
+    
+    for (int r = 1; r <= n; r++)
+    {
+        
+        for (int c = 1; c <= r; c++)
+        {
+           char res = 'A' + r - 1;
+           cout<<res;
+           
         }
 
         cout << "\n";

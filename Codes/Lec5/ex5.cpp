@@ -2,5 +2,6 @@
 using namespace std;
 int main(){
     int number = 3;
-    cout << (25 * (++number));
+    cout << (25 * (++number)); //100
+    //number = 4
 }
